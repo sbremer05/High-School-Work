@@ -1,4 +1,4 @@
-First Project from my high school Data Structure and Algorithms class
+Monte Carlo Project
 
 Assignment originally done (9/14/22 - 9/16/22) -> filename: Original
 
