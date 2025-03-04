@@ -1,6 +1,6 @@
 import java.util.*;
 import java.util.Scanner;
-public class MonteCarlo {
+public class Original {
 	public static void main(String[] args) {
 		ArrayList<Double> arrX = new ArrayList<Double>();
 		ArrayList<Double> arrY = new ArrayList<Double>();
