@@ -1,0 +1,1 @@
+User prompted to enter an integer and the power they wish for the integer to be raised to the power of. Returns result.
