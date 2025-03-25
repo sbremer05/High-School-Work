@@ -1,0 +1,1 @@
+Opens up file "HelloWord.txt" and parses the data, creating a new line for each word and counting.
