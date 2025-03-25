@@ -1,0 +1,1 @@
+Prompts User to input two integers and prints the sum of them.
