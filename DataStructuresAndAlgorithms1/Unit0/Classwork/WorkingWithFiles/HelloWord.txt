@@ -1,0 +1,7 @@
+This is a file.
+We are about to read the ... out of this file.
+	List of Students in Pairs:
+		Sean, John
+		Chris, Alex
+		Paul, Jack
+1,000,000
