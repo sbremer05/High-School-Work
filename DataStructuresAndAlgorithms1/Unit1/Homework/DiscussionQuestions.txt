@@ -1,0 +1,24 @@
+1. Al and Bob are arguing about their algorithms. Al claims his O(nlogn)- time method is always faster than
+Bob’s O(n2)-time method. To settle the issue, they perform a set of experiments. To Al’s dismay, they find
+that if n < 100, the O(n2)-time algorithm runs faster, and only when n ≥ 100 is the O(n log n)-time one better.
+How might this be possible?
+
+Theoretically, O(nlogn) seems faster than O(n^2); however, this is ignoring constants and coefficients. These
+will be affected by many things, including setup and functions within the program. O(nlogn) typically contains
+a longer setup that O(n^2), meaning that the constant is larger. This larger constant means it takes longer for
+the function to become more efficient. The function won't be more efficient until O(nlogn + c) > O(n^2).
+
+
+2. Bob built a Web site and gave the URL only to his n friends, which he numbered from 1 to n. He told friend number
+i that he/she can visit the Web site at most i times. Now Bob has a counter, C, keeping track of the total number of
+visits to the site (but not the identities of who visits). What is the minimum value for C such that Bob can know
+that one of his friends has visited his/her maximum allowed number of times?
+
+C = n(n-1)/2 + 1
+P1 gets 0 visits before maximum allowed, P2 1, and so on. If I were to create an example with 5 people, I'd have
+0(P1) + 1(P2) + 2(P3) + 3(P4) + 4(P5) = 10(total visits allowed before at least one person have reached their max).
+If I use the equation n(n - 1) / 2, it is equal to 10 when n = 5. The equation n(n+1)/2 would be equal to the total
+number for the max visits possible using the arithmetic sum formula. However, since we are trying to find the amount
+before everyone's max, each i value must be max - 1. So, the equation would become (n-1)n/2. This would become the
+sum of everyone's max - 1. So if I added 1 to this, then someone would have had to reached their max, thus creating the
+equation C = n(n-1)/2 + 1.
